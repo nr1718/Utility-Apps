@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+requests
+Pillow
+plotly
+qrcode[pil]
+fpdf
+PyPDF2
+rembg
+onnxruntime
+yt-dlp
