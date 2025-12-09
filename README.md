@@ -27,9 +27,7 @@ The application is divided into three powerful suites:
 
 ---
 
-## 📸 Screenshots
-
-*(You can upload screenshots of your app here to show off the UI)*
+## 📸 
 
 | Dashboard | Media Tools |
 |:---:|:---:|
