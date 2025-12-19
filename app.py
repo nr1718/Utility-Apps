@@ -8,7 +8,7 @@ import os
 from io import BytesIO
 from PIL import Image, ImageOps, ImageFilter, ImageDraw, ImageFont
 
-# --- Optional Libraries (Try/Except to prevent crashes) ----
+# --- Optional Libraries (Try/Except to prevent crashes) ---
 try:
     import plotly.express as px
 except ImportError:
@@ -509,5 +509,4 @@ elif selected_tool == "Quick Notes":
             st.success("Saved")
             
     for n in reversed(st.session_state.notes):
-
         st.markdown(f"<div style='background:white; padding:15px; border-radius:10px; margin-bottom:10px; border-left:5px solid #ff4b4b; box-shadow:0 2px 5px rgba(0,0,0,0.05);'>{n}</div>", unsafe_allow_html=True)
